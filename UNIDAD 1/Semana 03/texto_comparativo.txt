@@ -1,0 +1,19 @@
+# Comparación entre Programación Tradicional y Programación Orientada a Objetos (POO)
+
+# Programación Tradicional
+
+- Se basa en funciones independientes para ejecutar tareas especificas.
+- Es ideal para scripts pequeños o tareas sencillas.
+- El código es secuencial pero, puede volverse complejo de mantener a medida que el codigo crece.
+- Ejemplo: se usan funciones como deposit(), withdraw() o calcular_promedio() con variables globales.
+
+# Programación Orientada a Objetos (POO)
+
+- Utiliza clases y objetos para estructurar el codigo.
+- Facilita la organización, reutilización y mantenimiento del programa.
+- Encapsula datos y funciones relacionadas dentro de la misma clase.
+- Ejemplo: la clase Climasemanal gestiona los datos del clima y calcula el promedio.
+
+## Conclusión
+La programación tradicional resulta ser mas sencilla para tareas básicas, mientras que la Programación Orientada a Objetos permite que el código sea mas claro, organizado y escalable.
+Por eso, en proyectos más grandes o en equipos, la POO suele ser la mejor opción.
