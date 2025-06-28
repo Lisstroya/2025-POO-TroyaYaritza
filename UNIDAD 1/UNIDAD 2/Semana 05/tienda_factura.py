@@ -12,7 +12,7 @@ cantidad_comprada = int(input("Ingrese la cantidad comprada: "))
 total_pagar = precio_unitario * cantidad_comprada
 
 # Booleano para verificar si la compra supera cierto valor
-compra_grande = total_pagar > 20.00
+compra_grande = total_pagar > 25.00
 
 # Mostrar resultados de los datos ingresados
 print("\n--- Factura ---")
