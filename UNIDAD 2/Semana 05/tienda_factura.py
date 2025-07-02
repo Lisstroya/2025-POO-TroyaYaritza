@@ -1,4 +1,4 @@
-# Programa: Factura electronica para una tiendaAdd commentMore actions
+# Programa: Factura electronica para una tienda
 # Este programa permite ingresar el nombre de un producto, su precio unitario y cantidad comprada.
 # Luego calcula el total a pagar y muestra un resumen de la compra.
 # Utiliza tipos de datos: string, float, int y boolean.
