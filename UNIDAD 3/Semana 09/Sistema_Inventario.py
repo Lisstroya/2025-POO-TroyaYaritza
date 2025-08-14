@@ -58,8 +58,6 @@ def menu():
         elif opcion == "6":
             print(" Saliendo...")
             break
-        else:
-            print("Opcion no valida.")
 
 if __name__ == "__main__":
     menu()
