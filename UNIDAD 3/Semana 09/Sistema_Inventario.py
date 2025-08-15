@@ -4,16 +4,16 @@ def menu():
     inventario = Inventario()
 
     while True:
-        print("\n" + "=" * 20)
+        print("\n" + "=" * 24)
         print("SISTEMA INVENTARIO")
-        print("=" * 20)
+        print("=" * 24)
         print("1. Agregar producto")
         print("2. Eliminar producto")
         print("3. Actualizar cantidad o precio del producto")
         print("4. Buscar producto por nombre")
         print("5. Mostrar todos los productos")
         print("6. Salir")
-        print("=" * 20)
+        print("=" * 24)
 
         opcion = input("Seleccione una opción: ")
 
