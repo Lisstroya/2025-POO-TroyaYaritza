@@ -45,12 +45,12 @@ def menu():
             nombre = input("Nombre o parte del nombre: ")
             resultados = inventario.buscar_por_nombre(nombre)
             if resultados:
-                print("\nID       | Nombre | Cantidad | Precio")
+                print("\nID       | Nombre  | Cantidad  | Precio")
                 print("-" * 50)
                 for prod in resultados:
                     print(prod)
             else:
-                print("Ningun producto coincide con la busqueda. Intenta de nuevo")
+                print("Ningun producto coincide con la busqueda. Intenta nuevamente")
 
         elif opcion == "5":
             inventario.mostrar_todos()

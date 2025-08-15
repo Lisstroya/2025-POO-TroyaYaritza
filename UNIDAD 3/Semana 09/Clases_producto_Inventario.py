@@ -51,7 +51,7 @@ class Inventario:
                 if precio is not None: p.set_precio(precio)
                 print("Producto actualizado.")
                 return
-        print("Producto no encontrado.")
+        print(" El producto no ha sido encontrado.")
 
 #Busca el producto por su nombre
     def buscar_por_nombre(self, nombre):
@@ -62,7 +62,7 @@ class Inventario:
         if not self.productos:
             print("Inventario vacío.")
             return
-        print("\nID       | Nombre  | Cantidad | Precio")
+        print("\nID       | Nombre    | Cantidad |    Precio")
         print("-" * 50)
         for p in self.productos:
             print(p)
