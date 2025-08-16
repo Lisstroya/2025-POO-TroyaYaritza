@@ -4,16 +4,16 @@ def menu():
     inventario = Inventario()
 
     while True:
-        print("\n" + "=" * 24)
+        print("\n" + "=" * 18)
         print("SISTEMA INVENTARIO")
-        print("=" * 24)
+        print("=" * 18)
         print("1. Agregar producto")
         print("2. Eliminar producto")
         print("3. Actualizar cantidad o precio del producto")
         print("4. Buscar producto por nombre")
         print("5. Mostrar todos los productos")
         print("6. Salir")
-        print("=" * 24)
+        print("=" * 18)
 
         opcion = input("Seleccione una opción: ")
 
@@ -50,7 +50,7 @@ def menu():
                 for prod in resultados:
                     print(prod)
             else:
-                print("Ningun producto coincide con la busqueda. Intenta de nuevo")
+                print("Producto no coincide. Intenta de nuevo")
 
         elif opcion == "5":
             inventario.mostrar_todos()
