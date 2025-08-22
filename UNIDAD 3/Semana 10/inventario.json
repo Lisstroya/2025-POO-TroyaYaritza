@@ -1,0 +1,32 @@
+[
+    {
+        "id": "PROD1",
+        "nombre": "Fresa",
+        "cantidad": 10,
+        "precio": 2.0
+    },
+    {
+        "id": "PROD2",
+        "nombre": "Peras",
+        "cantidad": 12,
+        "precio": 3.0
+    },
+    {
+        "id": "PROD3",
+        "nombre": "Uvas",
+        "cantidad": 20,
+        "precio": 1.5
+    },
+    {
+        "id": "PROD4",
+        "nombre": "Naranjas",
+        "cantidad": 15,
+        "precio": 1.0
+    },
+    {
+        "id": "PROD5",
+        "nombre": "Bananos",
+        "cantidad": 30,
+        "precio": 5.25
+    }
+]
