@@ -73,7 +73,7 @@ class Inventario:
         for p in self.productos.values():
             print(p)
 
-    # Guardar productos en json
+    # Guardar productos en archivo JSON
     def guardar_en_archivo(self):
         try:
             with open(self.archivo, "w") as f:
@@ -86,7 +86,7 @@ class Inventario:
         except Exception as e:
             print(f"Ocurrió un error al guardar: {e}")
 
-    # Cargar productos desde json
+    # Cargar productos desde JSON
     def cargar_desde_archivo(self):
         if not os.path.exists(self.archivo):
             with open(self.archivo, "w") as f:
@@ -99,7 +99,7 @@ class Inventario:
                     producto = Producto(item["id"], item["nombre"], item["cantidad"], item["precio"])
                     self.productos[producto.get_id()] = producto
         except json.JSONDecodeError:
-            print("Error: El archivo JSON está corrupto. Se cargará inventario vacío.")
+            print("Error: El archivo JSON esta corrupto. Se cargará inventario vacío.")
             self.productos = {}
         except Exception as e:
             print(f"Ocurrió un error al cargar: {e}")

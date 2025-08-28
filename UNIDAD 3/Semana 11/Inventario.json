@@ -1,0 +1,38 @@
+[
+    {
+        "id": "POO1",
+        "nombre": "Arroz",
+        "cantidad": 3,
+        "precio": 2.0
+    },
+    {
+        "id": "POO2",
+        "nombre": "Cebollas",
+        "cantidad": 15,
+        "precio": 2.5
+    },
+    {
+        "id": "POO3",
+        "nombre": "Tomates",
+        "cantidad": 5,
+        "precio": 0.5
+    },
+    {
+        "id": "POO4",
+        "nombre": "Lechuga",
+        "cantidad": 1,
+        "precio": 0.45
+    },
+    {
+        "id": "POO5",
+        "nombre": "Leche",
+        "cantidad": 2,
+        "precio": 1.5
+    },
+    {
+        "id": "POO6",
+        "nombre": "Azucar",
+        "cantidad": 1,
+        "precio": 2.8
+    }
+]
