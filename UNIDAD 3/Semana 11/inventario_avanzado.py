@@ -120,9 +120,9 @@ def menu():
     inventario = Inventario()
 
     while True:
-        print("\n" + "=" * 30)
+        print("\n" + "=" * 32)
         print("SISTEMA INVENTARIO AVANZADO")
-        print("=" * 30)
+        print("=" * 32)
         print("1. Agregar producto")
         print("2. Eliminar producto")
         print("3. Actualizar cantidad o precio del producto")
@@ -131,7 +131,7 @@ def menu():
         print("6. Salir")
         print("7. Mostrar productos como tuplas")
         print("8. Mostrar conjunto de nombres únicos de productos")
-        print("=" * 30)
+        print("=" * 32)
 
         opcion = input("Seleccione una opción: ")
 
@@ -187,7 +187,7 @@ def menu():
             print(inventario.obtener_nombres_unicos())
 
         else:
-            print("Opción no válida. Intente nuevamente.")
+            print("Esta opción no es válida. Intente nuevamente.")
 
 
 if __name__ == "__main__":
