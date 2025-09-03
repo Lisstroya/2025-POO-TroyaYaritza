@@ -1,0 +1,17 @@
+{
+    "001": {
+        "nombre": "Lisethe",
+        "id_usuario": "001",
+        "libros_prestados": []
+    },
+    "002": {
+        "nombre": "Kimberly",
+        "id_usuario": "002",
+        "libros_prestados": []
+    },
+    "003": {
+        "nombre": "Fernando",
+        "id_usuario": "003",
+        "libros_prestados": []
+    }
+}
